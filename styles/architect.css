@@ -1,0 +1,116 @@
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">);
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+nav ul {
+    display: flex;
+    
+
+}
+nav li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+}
+.banner-cntnt {
+    max-width: 750px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+.banner img{
+    width: 100%;
+
+}
+
+.button {
+    margin-bottom: 25px;
+    width: 150px;
+    height: 60px;
+    flex-shrink: 0; 
+    border-radius: 8px;
+    background: #FF900E;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+.banner-des{
+    color: var(--Dark-03, #727272);
+}
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section-container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.q {
+    color: var(--Dark-03, #727272);
+    font-weight: 500;
+    font-size: 40px;
+}
+.our {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.f {
+    color: #FF900E;
+    font-size: 40px;
+    font-weight: 700;
+}
+.team-img {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-right: 90px;
+}
+.feature-img {
+    width: 708px;
+    height: 982px;
+    flex-shrink: 0;
+}
+@media screen and (max-width: 576px){
+    header {
+        padding: 20px;
+    }
+    nav, .section-container {
+        flex-direction: column;
+    }
+    .team-img {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav, .section-container {
+        flex-direction: column;
+    }
+    
+}
+
