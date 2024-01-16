@@ -96,6 +96,26 @@ main{
     height: 982px;
     flex-shrink: 0;
 }
+.facts{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+.cart-container .cart {
+    border-radius: 8px;
+    border: #FF900E 1px solid;
+    text-align: center;
+    height: 140px;
+    width: 140px;
+    padding: 10px;
+}
+
+.cart-container {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
 @media screen and (max-width: 576px){
     header {
         padding: 20px;
